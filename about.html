@@ -1,41 +1,131 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <link href="about(nhap).css" rel="stylesheet"/>
-    </head>
-    <body>
-        <dl id="dl1`">
-            <dt id="dt1">Group Name:</dt>
-            <dd id="dd1">GENTLE GUYS</dd>
-        </dl>
-    <div class="div1">
-        <div class="div2">
-            <dl id="dl2">
-            <dt id="dt2">Group ID:</dt>
-            <dd id="dd2">???</dd>
-            </dl>
-            <dl id="dl3">
-            <dt id="dt3">Tutor's Name:</dt>
-            <dd id="dd3">Tristan Nguyen</dd>
-            </dl>
-            <dl id="dl4">
-            <dt id="dt4">Members Contribution to this project:</dt>
-            <dd id="dd4">
-                Dang Quang Thinh (Designer for the Homepage)
-                <p>Nguyen Cong Quang Minh (Designer for the Job Description Page)</p>
-                <p>Nguyen Ho Minh Phuong (Designer for the About Us Page)</p>
-                <p>Nguyen Bach Tung (Designer for the Form Application Page)</p>
-            </dd>
-            </dl>
+<html lang="en">
+<head>
+    <link href="/styles/about.css" rel="stylesheet"/>
+    <title>About Us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <p>JOBS</p>
+            <img src="assets/img/logo.png" alt="Logo Image">
+            <p>IME</p>
         </div>
-        <figure class="grphoto">
-            <img src="Groupphoto.jpg" alt="group Photo" class="Photo">
-        </figure>
+        
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-item">
+                <p name="main">Home</p>
+                <p name="sub">Main page</p>
+            </a>
+            <a href="about.html" class="nav-item">
+                <p name="main">About</p>
+                <p name="sub">More information</p>
+            </a>
+            <a href="jobs.html" class="nav-item">
+                <p name="main">Jobs</p>
+                <p name="sub">Find opportunities</p>
+            </a>
+            <a href="apply.html" class="nav-item">
+                <p name="main">Apply</p>
+                <p name="sub">Send applications</p>
+            </a>
+            <a href="enhancements.html" class="nav-item enhancement">
+                <p name="main">Enhancements</p>
+                <p name="sub">Feedback and Suggestions</p>
+            </a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="/assets/img/group_trim.jpg" alt="group-photo">
     </div>
+
+    <div class="container">
+        <dl id="dl1">
+            <dt id="dt1">GENTLE GUYS</dt>
+            <!-- <dd id="dd1">GENTLE GUYS</dd> -->
+        </dl>
+        <div class="div1">
+            <div class="div2">
+                <dl id="dl2">
+                    <dt id="dt2">Group ID:</dt>
+                    <dd id="dd2">???</dd>
+                </dl>
+                <dl id="dl3">
+                    <dt id="dt3">Tutor's Name:</dt>
+                    <dd id="dd3">Tristan Nguyen</dd>
+                </dl>
+                
+                <div class="divider-container">
+                    <div class="hr"></div>
+                </div>
+
+                <div class="contributions">
+                    <h2>Members Contribution to this Project:</h2>
+                    <div class="card-slider">
+                        <!-- Card 1 -->
+                        <div class="card" id="homepage-designer">
+                            <h3 class="card-header">Home Page Designer</h3>
+                            <p class="card-body">Nguyen Ho Minh Phuong</p>
+                            <div class="card-info">
+                                <h4>Interests:</h4>
+                                <ul>
+                                    <li>UI/UX Design</li>
+                                    <li>Open Source Contribution</li>
+                                    <li>Photography</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Card 2 -->
+                        <div class="card" id="job-description-designer">
+                            <h3 class="card-header">Job Page Designer</h3>
+                            <p class="card-body">Nguyen Ho Minh Phuong</p>
+                            <div class="card-info">
+                                <h4>Interests:</h4>
+                                <ul>
+                                    <li>Database Optimization</li>
+                                    <li>Cloud Computing</li>
+                                    <li>Cycling</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Card 3 -->
+                        <div class="card" id="about-us-designer">
+                            <h3 class="card-header">About Page Designer</h3>
+                            <p class="card-body">Nguyen Bach Tung</p>
+                            <div class="card-info">
+                                <h4>Interests:</h4>
+                                <ul>
+                                    <li>Web Accessibility</li>
+                                    <li>Learning new frameworks</li>
+                                    <li>Traveling</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Card 4 -->
+                        <div class="card" id="form-application-designer">
+                            <h3 class="card-header">Apply Page Designer</h3>
+                            <p class="card-body">Nguyen Bach Tung</p>
+                            <div class="card-info">
+                                <h4>Interests:</h4>
+                                <ul>
+                                    <li>Machine Learning</li>
+                                    <li>Data Science</li>
+                                    <li>Gaming</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <table>
             <thead>
                 <tr>
-                    <th rowspan="3" colspan="10">Our Timetable</th>
+                    <th colspan="5">Our Timetable</th>
                 </tr>
             </thead>
             <tbody>
@@ -55,10 +145,7 @@
                 </tr>
                 <tr>
                     <td>Tuesday</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td colspan="4">No Schedule</td>
                 </tr>
                 <tr>
                     <td>Wednesday</td>
@@ -68,11 +155,8 @@
                     <td>17:00 - 22:00</td>
                 </tr>
                 <tr>
-                    <td>Thurstday</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Thursday</td>
+                    <td colspan="4">No Schedule</td>
                 </tr>
                 <tr>
                     <td>Friday</td>
@@ -90,15 +174,29 @@
                 </tr>
                 <tr>
                     <td>Sunday</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td colspan="4">No Schedule</td>
                 </tr>
             </tbody>
         </table>
-        <footer>
-            Contact us at: <a href="moiphuong2911@gmail.com" target="blank">moiphuong2911@gmail.com</a>
-        </footer>
-    </body>
+    </div>
+    <footer class="footer">
+        <!-- Copyright Area -->
+        <div class="footer-content">
+            <p class="copyright">
+                Copyright &copy; 2018, All Right Reserved
+                <a href="https://codepen.io/anupkumar92/" class="link">Tynjiz (oops#0536)</a>
+            </p>
+
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="jobs.html">Job</a></li>
+                    <li><a href="apply.html">Apply</a></li>
+                    <li><a href="enhancements.html">Enhancements</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
