@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Ramabhadra');
 
 html {
     scrollbar-width: thin;
@@ -204,7 +205,7 @@ body {
     }
 }
 
-.main-container {
+.content-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -217,6 +218,21 @@ body {
     flex-direction: row;
     width: 100%;
     height: 750px;
+}
+
+.intro-image {
+    width: 750px; /* Fixed width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the area */
+}
+
+.intro-content {
+    display: flex;
+    align-items: center; /* Center vertically */
+    background-color: #292929; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Padding for spacing */
+    flex-grow: 1; /* Take remaining space */
 }
 
 .intro-content-container {
@@ -232,6 +248,100 @@ body {
         transform: translateX(0); 
         opacity: 1; 
     }
+}
+
+.intro-title {
+    font-size: 36px; /* Title font size */
+    color: #ffffff; /* Title color */
+    font-family: 'Ramabhadra', sans-serif; /* Font family */
+    font-weight: bold; /* Bold text */
+}
+
+.intro-description {
+    font-size: 18px; /* Description font size */
+    color: #ffffff; /* Description color */
+    font-family: 'Courier New', monospace; /* Font family */
+    margin-top: 10px; /* Space above the description */
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 1450px; /* Fixed width */
+    height: 1500px; /* Fixed height */
+    color: #ffffff; /* Text color */
+    margin: 0px 40px 40px 40px;
+    padding: 10px;
+}
+
+.menu-header {
+    width: 100%;
+    height: 75px; /* Fixed height for header */
+}
+
+.header-title {
+    font-size: 36px;
+    font-family: 'Ramabhadra', sans-serif;
+    background-color: #878787;
+    line-height: 1;
+    margin: 0;
+}
+
+.header-description {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    background-color: #878787;
+}
+
+.menu-row-container {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.menu-description-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #292929;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-description-container:hover {
+    border: 2px solid #333333;
+    scale: 1.02
+}
+
+.menu-description-container img {
+    width: 690px;
+    height: 450px;
+    max-height: 550px;
+}
+
+.card-title {
+    margin-left: 5px;
+    font-size: 24px; /* Title font size */
+    font-family: 'Ramabhadra', sans-serif; /* Font family */
+    transition: 0.5s ease-in-out;
+}
+
+.menu-description-container:hover .card-title {
+    color: #007bff;
+
+}
+
+.card-description {
+    margin-left: 10px;
+    font-size: 18px; /* Description font size */
+    font-family: 'Courier New', monospace; /* Font family */
+    transition: 1s ease-in-out;
+}
+
+.menu-description-container:hover .card-description {
+    text-decoration: underline;
 }
 
 .footer {
@@ -281,9 +391,13 @@ body {
 }
 
 .footer-menu li a {
-    color: #878787; /* Link color */
-    text-decoration: none; /* Remove underline */
-    font-size: 14px; /* Font size */
+    color: #878787;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-menu li a:hover {
+    text-decoration: underline;
 }
 
 .footer-menu li a:hover {
