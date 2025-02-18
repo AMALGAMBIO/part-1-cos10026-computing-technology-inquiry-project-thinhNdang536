@@ -1,0 +1,87 @@
+#dt1{color: #83d84e;
+    height:100%;
+    font-size:1.5cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;}
+
+body{background-color:#141414;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+#dd1{color: rgba(255, 255, 255, 0.938);
+    height:100%;
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;}
+
+#dt2{color: #83d84e;
+    font-size: 1cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#dd2{color: rgba(255, 255, 255, 0.938);
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#dt3{color: #83d84e;
+    font-size: 1cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#dd3{color: rgba(255, 255, 255, 0.938);
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#dt4{color: #83d84e;
+    font-size: 1cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#dd4{color: rgba(255, 255, 255, 0.938);
+    font-size: 0.5cm;
+    font-family: Arial, Helvetica, sans-serif;}
+
+figcaption{color: #93d84e;
+    font-size: 1cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.grphoto{width:50%;
+    background-color: blue;
+    height: 100%}
+
+table{color: black;
+    font-weight: bold;
+    background-color: white;
+    border-collapse: collapse;
+    font: size 0.5cm;}
+
+td, th{border: 2px solid black}
+
+footer{color: #83d84e;
+    font-size: 0/5cm;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;}
+
+footer a{color: white}
+
+.div1{width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;}
+
+.div2{width: 50%;
+    height: 500px;
+    background-color: green;}
+
+.Photo{width:850px;
+    height:675px}
