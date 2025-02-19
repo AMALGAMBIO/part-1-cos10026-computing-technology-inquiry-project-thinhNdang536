@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 75px;
-    background: #242424;
+    background-color: #242424;
     padding: 5px 30px;
 }
 
@@ -59,7 +59,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
-    width: 90px;
+    width: 115px;
 }
 
 .nav-item:hover {
@@ -96,7 +96,6 @@ body {
     opacity: 1;
     transform: translateY(-5px);
 }
-
 
 .enhancement {
     width: 155px;
@@ -261,7 +260,6 @@ table {
 }
 
 th, td {
-    border: 1px solid #555;
     color: white;
     padding: 10px;
     text-align: center;
@@ -269,6 +267,10 @@ th, td {
 
 th {
     background-color: #007bff;
+}
+
+td {
+    border: 1px solid #555;
 }
 
 /* FOOTER SECTION */
