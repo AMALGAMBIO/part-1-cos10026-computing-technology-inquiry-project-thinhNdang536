@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom Stylesheet -->
-    <link href="styles/style_about.css" rel="stylesheet">
-    <title>About Us</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home</title>
+  </head>
+  <body>
     <!-- HEADER SECTION -->
     <header class="header">
         <!-- Logo Section -->
@@ -42,158 +42,88 @@
         </nav>
     </header>
 
-    <!-- MAIN CONTENT SECTION -->
-    <main class="main-container">
-        <!-- Group Information Section -->
-        <div class="group-name-container">
-            <h1>GENTLE GUYS</h1>
-        </div>        
-
-        <!-- Group Details Section -->
-        <div class="detail-container">
-            <div>
-                <dl>
-                    <dt>Group ID:</dt>
-                    <dd>???</dd>
-                </dl>
-                <dl>
-                    <dt>Tutor's Name:</dt>
-                    <dd>Tristan Nguyen</dd>
-                </dl>
-                <dl>
-                    <dt>Contact us at:</dt>
-                    <dd><a href="mailto:moiphuong2911@gmail.com">moiphuong2911@gmail.com</a></dd>
-                </dl>
+    <!-- BANNER SECTION -->
+    <div class="banner-container">
+        <div class="banner-content">
+            <p class="banner-sub-title">Position Seeker</p>
+            <p class="banner-main-title">Decide Your Future - Discover Your Dream Job.</p>
+            <p class="banner-description">
+                Unlock your potential and shape your future with the perfect job. Explore a wide range of career opportunities, discover your dream role, and take the first step toward a fulfilling career today.
+            </p>
+            <div class="banner-buttons">
+                <a href="jobs.html" class="banner-btn-primary">Get Started</a>
+                <a href="about.html" class="banner-btn-success">Learn more</a>
             </div>
-            <figure>
-                <img src="assets/img/about/banner.jpg" alt="group-photo">
-            </figure>
+        </div>
+        <img src="assets/img/home/banner.jpeg" alt="Banner Image">
+    </div>
+
+    <!-- HORIZONTAL LINE DIVIDER -->
+    <div class="divider-container">
+        <div class="hr"></div>
+    </div>
+
+    <!-- CONTENT SECTION -->
+    <main class="main-container">
+        <!-- INTRO SECTION -->
+        <div class="intro-container">
+            <img src="assets/img/home/img_01.jpg" alt="Intro Image">
+            <div class="intro-content-container">
+                <div class="intro-content-animation">
+                    <p class="intro-title">Elevate Your Hiring Prospects</p>
+                    <p class="intro-description">
+                        Enhance your career trajectory with our expert job search strategies, tailored to unlock opportunities in Sai Gon City.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <!-- Divider -->
+        <!-- HORIZONTAL LINE DIVIDER -->
         <div class="divider-container">
             <div class="hr"></div>
         </div>
 
-        <!-- Members Contribution Section -->
-        <div class="contributions">
-            <h2>Members Contribution to this Project:</h2>
-            <div class="card-slider">
-                <!-- Card 1: Home Page Designer -->
-                <div class="card" id="homepage-designer">
-                    <h3 class="card-header">Home Page Designer</h3>
-                    <p class="card-body">Dang Quang Thinh (ID: 105551875)</p>
-                    <aside>
-                        <h4>Interests:</h4>
-                        <ul>
-                            <li>UI/UX Design</li>
-                            <li>Open Source Contribution</li>
-                            <li>Photography</li>
-                        </ul>
-                    </aside>
-                </div>
+        <!-- MENU SECTION -->
+        <div class="menu-container">
+            <div class="menu-header">
+                <p class="header-title">Refine Job Search Skills</p>
+                <p class="header-description">Enhance your career prospects with tailored job search strategies, designed to streamline and focus your employment journey.</p>
+            </div>
         
-                <!-- Card 2: About Page Designer -->
-                <div class="card" id="about-us-designer">
-                    <h3 class="card-header">About Page Designer</h3>
-                    <p class="card-body">Nguyen Ho Minh Phuong (ID: 105723111)</p>
-                    <aside>
-                        <h4>Interests:</h4>
-                        <ul>
-                            <li>Web Accessibility</li>
-                            <li>Learning new frameworks</li>
-                            <li>Gaming</li>
-                        </ul>
-                    </aside>
+            <!-- MENU ROWS -->
+            <div class="menu-row-container">
+                <div class="menu-description-container" id="indexpicture">
+                    <a href="jobs.html" class="menu-link">
+                        <img src="assets/img/home/img_02.jpg" alt="Personalized Resume Optimization">
+                        <p class="card-title">Personalized Resume Optimization</p>
+                        <p class="card-description">Enhance your resume with tailored strategies that highlight strengths and attract employers.</p>
+                    </a>
                 </div>
-        
-                <!-- Card 3: Job Page Designer -->
-                <div class="card" id="job-description-designer">
-                    <h3 class="card-header">Job Page Designer</h3>
-                    <p class="card-body">Nguyen Bach Tung (ID: 105555424)</p>
-                    <aside>
-                        <h4>Interests:</h4>
-                        <ul>
-                            <li>Database Optimization</li>
-                            <li>Cloud Computing</li>
-                            <li>Cycling</li>
-                        </ul>
-                    </aside>
+                <div class="menu-description-container second-row-container">
+                    <a href="jobs.html" class="menu-link">
+                        <img src="assets/img/home/img_03.jpg" alt="Interview Mastery Sessions">
+                        <p class="card-title">Interview Mastery Sessions</p>
+                        <p class="card-description">Gain confidence and excel at interviews with our expert-led practice and feedback sessions.</p>
+                    </a>
                 </div>
-        
-                <!-- Card 4: Apply Page Designer -->
-                <div class="card" id="form-application-designer">
-                    <h3 class="card-header">Apply Page Designer</h3>
-                    <p class="card-body">Nguyen Cong Quang Minh (ID: 105680177)</p>
-                    <aside>
-                        <h4>Interests:</h4>
-                        <ul>
-                            <li>Machine Learning</li>
-                            <li>Data Science</li>
-                            <li>Traveling</li>
-                        </ul>
-                    </aside>
+            </div> 
+            <div class="menu-row-container second-column-container">
+                <div class="menu-description-container">
+                    <a href="jobs.html" class="menu-link">
+                        <img src="assets/img/home/img_04.jpg" alt="Personalized Resume Optimization">
+                        <p class="card-title">Targeted Job Market Insights</p>
+                        <p class="card-description">Stay ahead with access to exclusive job market trends and insights specific to your industry.</p>
+                    </a>
+                </div>
+                <div class="menu-description-container second-row-container">
+                    <a href="jobs.html" class="menu-link">
+                        <img src="assets/img/home/img_05.jpg" alt="Interview Mastery Sessions">
+                        <p class="card-title">Strategic Skill Development Plans</p>
+                        <p class="card-description">Advance your career with customized plans to acquire in-demand skills and achieve goals.</p>
+                    </a>
                 </div>
             </div>
         </div>
-
-        <!-- Timetable Section -->
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="5">Our Timetable</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td>Dang Quang Thinh</td>
-                    <td>Nguyen Cong Quang Minh</td>
-                    <td>Nguyen Ho Minh Phuong</td>
-                    <td>Nguyen Bach Tung</td>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td colspan="4">No Schedule</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td colspan="4">No Schedule</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                    <td>17:00 - 22:00</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td colspan="4">No Schedule</td>
-                </tr>
-            </tbody>
-        </table>
     </main>
 
     <!-- FOOTER SECTION -->
@@ -217,5 +147,5 @@
             </div>
         </div>
     </footer>
-</body>
+  </body>
 </html>
